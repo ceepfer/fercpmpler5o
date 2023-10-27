@@ -1,11 +1,6 @@
 *{
 	box-sizing: border-box;
  }
-.image1{
-	width: 500px;
-	margin-top: 70px;
-}
-
 
 body{
 	font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
@@ -13,7 +8,7 @@ body{
 }
 
 header{
-	background-color: #6ba7df;
+	background-color: #a11616;
 	height: 3em;
 	color: #FFF;
 	margin-bottom: 1em;
@@ -72,7 +67,7 @@ td, th {
 
 th{
 	font-weight: bold;
-	background-color: #54abd3;
+	background-color: #a01f1f;
 }
 
 label{
@@ -118,7 +113,7 @@ button{
 	margin: 0;
 	margin-top: -3px;
 	color: #fff;
-	background-color:#6789e6;
+	background-color:#af1818;
 	border-color: #2c4faf;
 	width: 20%;
     display: block;
@@ -190,4 +185,10 @@ button[disabled=disabled], button:disabled {
 
 .invisivel{
     display: none;
+}
+
+.image1{
+	position: absolute;
+	left: 1300px;
+	margin-top: 750px;
 }
